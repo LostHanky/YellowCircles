@@ -35,10 +35,9 @@ class MainWindow(QMainWindow):
         y = random.randint(d, max(d, vert - d))
         ellipse = QGraphicsEllipseItem(x, y, d, d)
         color = QColor(
-            #random.randint(50, 255),
-            #random.randint(50, 255),
-            #random.randint(50, 255),
-            255, 255, 0
+            random.randint(50, 255),
+            random.randint(50, 255),
+            random.randint(50, 255),
         )
         ellipse.setPen(color)
         ellipse.setBrush(color)
