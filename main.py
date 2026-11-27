@@ -41,7 +41,6 @@ class MainWindow(QMainWindow):
         )
         ellipse.setPen(color)
         ellipse.setBrush(color)
-
         self.scene.addItem(ellipse)
 
 
